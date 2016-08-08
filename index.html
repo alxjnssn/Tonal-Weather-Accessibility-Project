@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Tonal Weather Accessiblity Project</title>
+	<link rel="stylesheet" href="master.css">
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<script src="https://use.fontawesome.com/4b9d934bd3.js"></script>
+</head>
+
+<body>
+
+	<div class="slideInUp landingPage">
+	
+		<form action="info.html">
+			<button class="info" id="info">
+				<i class="fa fa-question" aria-hidden="true"></i>
+			</button>
+		</form>
+
+		<main>
+			<h1>Tonal<br>Weather<br>Accessibility<br>Project</h1>
+			<form action="" id="searchForm">
+				<fieldset class="country">
+					<label for="country">Country:</label>
+					<input type="text" name="country">
+				</fieldset>
+				<fieldset class="city">
+					<label for="city">City:</label>
+					<input type="text" name="city">
+				</fieldset>
+				<button type="submit" id="searchForm">
+					<i class="fa fa-volume-up" aria-hidden="true"></i>
+				</button>
+			</form>
+		</main>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="flocking/flocking-all.js"></script>
+	<script src='script.js'></script>
+
+</body>
+
+</html>
